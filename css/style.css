@@ -1,0 +1,273 @@
+/* header */
+header img{
+    margin: 0 ;
+    width: 100%;
+}
+h1 {
+  margin: 0 ;
+  padding: 0;
+}
+/* ハンバーガ */
+
+.header_flex{
+  position: -webkit-sticky;
+  align-items: center;
+  background: #fff;
+  position: sticky;
+  display: flex;
+  width: 100%;
+  top: 0px;
+  z-index: 1000;
+  justify-content: space-around;
+  border-bottom: 1px solid #006600;
+}
+
+.hbg{
+  position: relative;
+}
+.menu{
+  position: relative;
+}
+.ulArea{
+  position: absolute;
+  overflow: hidden;
+  background-color:white;
+  border: #006600 10px solid;
+  top: 0;
+  right: 0;
+  transition: 1s;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.ulArea li{
+  padding: 20px 30px;
+}
+
+.ulArea li a{
+  font-size: 17px;
+}
+
+.ulArea li div{
+  font-size: 15px;
+}
+
+.btn{
+  background-color:white;
+  height: 56px;
+  width: 56px;
+ 
+  z-index: 1;
+}
+  .off{
+  opacity: 0;
+  right: -100%;
+  top: 0;
+}
+.active{
+  background: initial;
+  transition: all 1s 0s ease;
+}
+.line{
+  width: 28px;
+  height: 4px;
+  background: #006600;
+}
+.top{
+  position: absolute;
+  top: 15px;
+  left: 25%;
+  transition: all 1s 0s ease;
+}
+.top_close{
+  top: 20px;
+  left: 25px;
+  transform: rotate(45deg);
+}
+.mid{
+  position: absolute;
+  top:25px;
+  left: 25%;
+  transition: all 1s 0s ease;
+}
+.mid_close{
+  opacity: 0;
+}
+.btm{
+  position: absolute;
+  top:35px;
+  left: 25%;
+  transition: all 1s 0s ease;
+}
+.btm_close{
+  top: 20px;
+  left: 25px;
+  transform: rotate(-45deg);
+}
+li {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+}
+
+/* main */
+
+h2 {
+  font-size: 25px;
+}
+
+
+  .discovery  {
+    margin: 0 auto;
+    line-height: 2;
+    font-weight: bold;
+    text-align: center;
+    width: 92%;
+  }
+  .discovery h2 {
+    padding: 40px 0 30px 0;
+  }
+  .discovery h3 {
+      text-align: start;
+      font-size: 23px;
+      border-bottom: 1px solid;
+      line-height: 19px;
+  }
+  .flex {
+    padding-bottom: 30px;
+  }
+  .discovery2  {
+    margin: 0 auto;
+    line-height: 2;
+    font-weight: bold;
+    text-align: center;
+    width: 92%;
+  }
+  .discovery2 h2{
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+  .discovery2 h3 {
+    margin: 0 auto ;
+    text-align: center;
+    font-size: 23px;
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+  }
+  .discovery2 h3::after{
+  content: "副会長";
+}
+.discovery2 h3 span {
+  font-size: 34px;
+  margin-right: 5px;
+}
+.discovery2 h3::after{
+  content: "副会長";
+}
+.googl {
+text-align: center;
+}
+.googl h2 {
+  font-size: 28px;
+  border-top: 1px solid;
+  margin: 60px 20px 40px 20px;
+  padding-top: 60px;
+  font-weight: bold;
+}
+.googl h3 {
+  font-size: 23px;
+  padding: 20px 0 15px 0;
+}
+.googl h4 {
+  font-size: 39px;
+  padding: 35px;
+}
+.googl h5{
+  font-size: 23px;
+  padding-bottom: 20px;
+}
+.googl p {
+  font-size: 23px;
+  padding-top: 3px;
+}
+button {
+  height: 54px;
+  width: 195px;
+  font-size: 49px;
+  background-color: #006600;
+  color: #ffff;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.flex{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.flex span{
+   font-size: 25px;
+}
+.seityo {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 55px;
+  margin-bottom: 70px;
+  border-width: 85;
+  border-top: 1px solid;
+  padding-top: 100px;
+  
+}
+.seityo h2 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.seityo h3 {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+.seityo div {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+.seityo h4 {
+  font-size: 28px;
+}
+.seityo h4 a{
+  font-size: 40px;
+}
+.seityo p {
+  padding-bottom: 4px;
+}
+
+
+/* footer */
+footer {
+    border: 15px solid #006600;
+}
+footer nav ul li a {
+  font-weight: bold;
+  padding-bottom: 2px;
+  color: black;
+}
+footer nav ul li div{
+  text-align: end;
+  font-size: 13px;
+  height: 100px ;
+  border-top: 2px solid;
+  line-height: 2;
+  margin-top: -15px;
+}
+#utility{
+    margin:0 auto 35px;
+    padding: 70px 18px 10px;
+    box-sizing: border-box;
+    max-width: 1050px;
+    line-height: 50px;
+
+  }
+
+footer img {
+  padding-left: 5px;
+}
+
